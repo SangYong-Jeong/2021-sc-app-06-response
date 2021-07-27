@@ -1,0 +1,20 @@
+.wrapper {max-width: 900px; width: auto; margin: auto; border: 10px solid red;}
+
+.img-wrap {display: flex; flex-wrap: wrap;}
+.img-wrap .imgs {width: 25%;}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+	.img-wrap .imgs {width: 33.3333%;}
+}
+@media screen and (max-width: 768px) {
+	.img-wrap .imgs {width: 50%;}
+}
+@media screen and (max-width: 414px) {
+	.img-wrap .imgs {width: 100%;}
+}
+
+
